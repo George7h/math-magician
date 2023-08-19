@@ -125,8 +125,8 @@ To run tests, run the following command: npm run test
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Animation]**
-- [ ] **[Searchbymeal]**
-- [ ] **[alphabatise]**
+- [ ] **[getquotes]**
+- [ ] **[Navbar]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
