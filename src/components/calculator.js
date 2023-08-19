@@ -48,7 +48,7 @@ function Buttons({ numberAndOperator }) {
       <button type="button" className="operator top" onClick={calcButton}>AC</button>
       <button type="button" className="operator top" onClick={calcButton}>+/-</button>
       <button type="button" className="operator top" onClick={calcButton}>%</button>
-      <button type="button" className="operator" onClick={calcButton}>/</button>
+      <button type="button" className="operator" onClick={calcButton}>÷</button>
       <button type="button" className="number" onClick={calcButton}>7</button>
       <button type="button" className="number" onClick={calcButton}>8</button>
       <button type="button" className="number" onClick={calcButton}>9</button>
