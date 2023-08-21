@@ -1,5 +1,44 @@
-.App {
-  display: flex;
-  justify-content: center;
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Indie+Flower&family=Monoton&family=Pacifico&display=swap');
+
+.contain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 100px;
   align-items: center;
+  gap: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.appName {
+  color: white;
+  font-size: x-large;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  margin-right: 30px;
+  padding: 0;
+  color: white;
+  font-size: larger;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+.quoteApp {
+  font-family: 'Indie Flower', cursive;
+  font-size: larger;
 }
