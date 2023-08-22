@@ -1,4 +1,4 @@
-import Calculator from '../components/Calculator.js';
+import Calculator from '../components/Calculator';
 
 const CalculatorComponent = () => (
   <div className="calcApp">
