@@ -1,4 +1,4 @@
-import GetQuote from '../components/GetQuote';
+import GetQuote from '../components/GetQuote.js';
 
 const Quote = () => (
   <div>
