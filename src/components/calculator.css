@@ -1,5 +1,4 @@
 .calculator {
-  width: 400px;
   border-radius: 5px;
   padding: 10px;
   background-color: #858694;
@@ -10,12 +9,14 @@
   text-align: right;
   padding: 10px;
   color: white;
+  font-size: 2em;
 }
 
 .btns {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1px;
+  height: 30rem;
 }
 
 button {
@@ -43,4 +44,9 @@ button:hover {
 
 .top {
   background-color: #e0e0e0;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: xx-large;
 }
