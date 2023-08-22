@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import GetQuote from '../components/GetQuote';
 
 const Quote = () => (
