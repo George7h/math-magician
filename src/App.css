@@ -1,11 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Indie+Flower&family=Monoton&family=Pacifico&display=swap');
 
-.contain {
+.calcApp {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 100px;
+}
+
+p {
+  font-size: larger;
+}
+
+.welcome {
+  font-size: larger;
+  margin: 10%;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  font-size: xx-large;
+  text-align: center;
 }
 
 .navbar {
@@ -15,6 +32,7 @@
   background-color: #333;
   padding: 10px;
   font-family: 'Indie Flower', cursive;
+  flex-wrap: wrap;
 }
 
 .appName {
@@ -41,4 +59,10 @@
 .quoteApp {
   font-family: 'Indie Flower', cursive;
   font-size: larger;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
 }

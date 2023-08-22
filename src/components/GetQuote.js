@@ -24,12 +24,19 @@ const GetQuote = () => {
   }, [setData, setIsLoading]);
 
   if (hasError) return <div>Something went wrong!</div>;
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading) return <div className="loading">Loading...</div>;
 
   return (
     <div className="quotes">
-      <h4>{data[0].quote}</h4>
-      <h5>{data[0].author}</h5>
+      <h4>
+        &quot;
+        {data[0].quote}
+        &quot;
+      </h4>
+      <h5>
+        -
+        {data[0].author}
+      </h5>
     </div>
   );
 };
