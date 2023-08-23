@@ -11,7 +11,7 @@ const GetQuote = () => {
       try {
         const res = await fetch('https://api.api-ninjas.com/v1/quotes?category=intelligence', {
           method: 'GET',
-          headers: { 'X-Api-Key': 'ZF+W6Ac/FjnhoKZ/HmyypA==DSAEPYdYuE4eZiju' },
+          headers: { 'X-Api-Key': process.env.REACT_APP_NOT_SECRET_CODE },
         });
         const json = await res.json();
         setData(json);
