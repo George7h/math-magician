@@ -70,7 +70,7 @@ Read a random math-related quote.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming soon!
+- Here is a <a href="https://georges-math-magician-2.onrender.com">link</a> to my live website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
